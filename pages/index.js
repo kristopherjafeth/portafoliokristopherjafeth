@@ -6,7 +6,6 @@ import Testimonial from "../components/UI/Testimonial";
 import Contact from "../components/UI/Contact";
 
 
-
 export default function Home() {
   return (
     <Fragment>
@@ -18,3 +17,5 @@ export default function Home() {
     </Fragment>
   );
 }
+
+

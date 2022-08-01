@@ -5,9 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/kristopher.png";
 import classes from "../../styles/hero.module.css";
+
+
+
 const Hero = () => {
   return (
     <section className={`${classes.hero}`}>
+      <div id="particles-js">
       <Container>
         <Row>
           {/* ========== hero content ============= */}
@@ -53,7 +57,9 @@ const Hero = () => {
           </Col>
         </Row>
       </Container>
+      </div>
     </section>
+    
   );
 };
 

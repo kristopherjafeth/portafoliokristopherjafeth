@@ -58,7 +58,6 @@ const Header = () => {
   return (
 
     <header className={`${classes.header}`} ref={headerRef}>
-        <title>Kristopher Jafeth - Desarrollador Web Full Stack</title>
       <meta name="description" content="Desarrollador con más de 4 años de experiencia, creando mi primera página web en el 2016, Actualmente CEO en Nova Technology, Soy Emprendedor en Maracaibo, Venezuela y mejor conocido como @kristopherjafeth en redes sociales."></meta>
       <Container>
         <div className={`${classes.nav__wrapper}`}>
