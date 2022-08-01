@@ -15,15 +15,18 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="¡Hola! Me llamo" />
               <h2 className="mt-3 mb-3">Kristopher Jafeth</h2>
-              <h5 className="mb-4">Desarrollador Web Full Stack</h5>
+              <h1>
+              <span>
+              Desarrollador Web Full Stack 
+              </span>
+              </h1>
+              
               <p>
               Desarrollador con más de 4 años de experiencia, creando mi primera página web en el 2016, Actualmente CEO en Nova Technology, Soy Emprendedor en Maracaibo, Venezuela y mejor conocido como @kristopherjafeth en redes sociales.              </p>
               <div className="mt-5">
                 <button className="primary__btn">
                   <Link href="#contact">Contacto</Link>
                 </button>
-
-               
               </div>
             </div>
           </Col>
