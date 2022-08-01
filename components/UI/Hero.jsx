@@ -23,9 +23,7 @@ const Hero = () => {
                   <Link href="#contact">Contacto</Link>
                 </button>
 
-                <button className="secondary__btn">
-                  <Link href="#">Mi Curriculum</Link>
-                </button>
+               
               </div>
             </div>
           </Col>

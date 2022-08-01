@@ -79,7 +79,48 @@ const portfolio = [
     keyword: ["PHP", "LARAVEL", "JAVASCRIPT", "HTML/CSS", "MYSQL"],
     liveUrl: "#",
   },
-  
+
+  /* DISEÑO GRAFICO */
+  {
+    id: "10",
+    title: "DISTRIBUIDORA JADE",
+    img: "/images/instagram1.png",
+    category: "Diseños",
+    keyword: ["Photoshop", "Illustrator"],
+    liveUrl: "#",
+  },
+  {
+    id: "11",
+    title: "DISTRIBUIDORA JADE",
+    img: "/images/instagram2.png",
+    category: "Diseños",
+    keyword: ["Photoshop", "Illustrator"],
+    liveUrl: "#",
+  },
+  {
+    id: "12",
+    title: "DISTRIBUIDORA JADE",
+    img: "/images/instagram3.png",
+    category: "Diseños",
+    keyword: ["Photoshop", "Illustrator"],
+    liveUrl: "#",
+  },
+  {
+    id: "13",
+    title: "PIZZERIA DANIELA",
+    img: "/images/instagram4.jpg",
+    category: "Diseños",
+    keyword: ["Photoshop", "Illustrator"],
+    liveUrl: "#",
+  },
+  {
+    id: "14",
+    title: "TRANSPORTES EJECUTIVOS",
+    img: "/images/instagram5.png",
+    category: "Diseños",
+    keyword: ["Photoshop", "Illustrator"],
+    liveUrl: "#",
+  },
 ];
 
 export default portfolio;

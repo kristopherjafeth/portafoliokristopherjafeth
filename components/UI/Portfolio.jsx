@@ -33,6 +33,13 @@ const Portfolio = () => {
 
       setData(filteredData);
     }
+    if (filter === "Diseños") {
+      const filteredData = portfolioData.filter(
+        (item) => item.category === filter
+      );
+
+      setData(filteredData);
+    }
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
@@ -58,6 +65,14 @@ const Portfolio = () => {
               </button>
               <button
                 className={`${
+                  filter === "Diseños" ? active : ""
+                } secondary__btn text-white`}
+                onClick={() => setFilter("Diseños")}
+              >
+                Diseños
+              </button>
+              <button
+                className={`${
                   filter === "Sistemas" ? active : ""
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Sistemas")}
@@ -72,6 +87,7 @@ const Portfolio = () => {
               >
                 Tiendas
               </button>
+             
             </div>
           </Col>
 
