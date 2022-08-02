@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
 import SectionSubtitle from "./SectionSubtitle";
-import network from "../../public/images/Connected world.png";
-import Slider from "react-slick";
-import classes from "../../styles/testimonial.module.css";
-import Instagram from "./script"
+
+
 
 const Testimonial = () => {
   const settings = {
