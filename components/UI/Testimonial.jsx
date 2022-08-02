@@ -21,87 +21,13 @@ const Testimonial = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6" md="6" className={`${classes.testimonial__img}`}>
-            <Image alt="network-img" src={network} width="400" height="400" />
-          </Col>
+          
 
-          <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Testimonios" />
-            <h4 className="mt-4 mb-5">¿Qué dicen mis clientes?</h4>
-
-            <Slider {...settings}>
-              <div className={`${classes.testimonial__item}`}>
-                <div className={`${classes.testimonial__client}`}>
-                  <Image
-                    alt="client-img"
-                    src="/images/hero.jpg"
-                    width="50"
-                    height="50"
-                    className=" rounded-2"
-                  />
-
-                  <div>
-                    <h6>Kenneth Quintero</h6>
-                    <h6>Presidente BERKEN</h6>
-                  </div>
-                </div>
-
-                <p>
-                  Excelente servicio, la página web de mi empresa es rápida y esta de #1 en Google!
-                </p>
-              </div>
-
-              <div className={`${classes.testimonial__item}`}>
-                <div className={`${classes.testimonial__client}`}>
-                  <Image
-                    alt="client-img"
-                    src="/images/hero.jpg"
-                    width="50"
-                    height="50"
-                    className=" rounded-2"
-                  />
-
-                  <div>
-                    <h6>Jesus Paz</h6>
-                    <h6>Web Developer</h6>
-                  </div>
-                </div>
-
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
-              </div>
-
-              <div className={`${classes.testimonial__item}`}>
-                <div className={`${classes.testimonial__client}`}>
-                  <Image
-                    alt="client-img"
-                    src="/images/hero.jpg"
-                    width="50"
-                    height="50"
-                    className=" rounded-2"
-                  />
-
-                  <div>
-                    <h6>Adam Smith</h6>
-                    <h6>Financial Accountant</h6>
-                  </div>
-                </div>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
-              </div>
-            </Slider>
+          <Col lg="12" md="12">
+            <SectionSubtitle subtitle="Redes" />
+            <h4 className="mt-4 mb-5">Instagram</h4>
+           <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+           <iframe src="//lightwidget.com/widgets/cdd12828e0de5d75a976f4cf215c495a.html" style={{ width: "100%", overflow: "hidden", }} scrolling="no" allowtransparency="true" class="lightwidget-widget" ></iframe>
           </Col>
         </Row>
       </Container>
