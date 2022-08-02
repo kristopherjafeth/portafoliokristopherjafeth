@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "../../public/images/kristopher.png";
+import heroImg from "../../public/images/kristopher.gif";
 import classes from "../../styles/hero.module.css";
 
 
@@ -11,7 +11,6 @@ import classes from "../../styles/hero.module.css";
 const Hero = () => {
   return (
     <section className={`${classes.hero}`}>
-      <div id="particles-js">
       <Container>
         <Row>
           {/* ========== hero content ============= */}
@@ -37,8 +36,8 @@ const Hero = () => {
 
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
-            <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="500" height="500" />
+            <div className={`${classes.hero__img} text-center`}>
+              <Image alt="hero-image" src={heroImg} width="300" height="500" />
 
              
 
@@ -57,7 +56,7 @@ const Hero = () => {
           </Col>
         </Row>
       </Container>
-      </div>
+      
     </section>
     
   );
