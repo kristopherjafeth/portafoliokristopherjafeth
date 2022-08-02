@@ -27,8 +27,8 @@ const Testimonial = () => {
           <Col lg="12" md="12">
             <SectionSubtitle subtitle="Redes" />
             <h4 className="mt-4 mb-5">Instagram</h4>
-            <Instagram />
-            <div className="elfsight-app-3b4a04a4-5b77-401d-b4a7-bcc4fe202869"></div>          
+            
+
             </Col>
         </Row>
       </Container>
