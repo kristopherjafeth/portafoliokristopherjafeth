@@ -16,7 +16,7 @@
 }
 
 .logo h1 span {
-  color: #01d293;
+  color: #B800C8;
 }
 
 .nav__menu {
@@ -35,15 +35,15 @@
 }
 
 .nav__menu a:hover {
-  color: #01d293;
+  color: #B800C8;
 }
 
 .nav__menu a:first-child {
-  color: #01d293;
+  color: #B800C8;
 }
 
 .nav__right p {
-  color: #01d293;
+  color: #B800C8;
   margin-left: 20px;
   position: relative;
 }

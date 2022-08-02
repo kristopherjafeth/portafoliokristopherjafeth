@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
 
 import { Container } from "reactstrap";
+import Image from "next/image";
 import classes from "./header.module.css";
 import Link from "next/link";
-import Logo from "./Logo";
 
 
 
@@ -65,7 +65,9 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-          <Logo height="90px" />
+          <Image
+          src={require("./logokristopher.png") } width={100} height={100} padding={"10px"}
+        />
           </div>
 
           {/* ========= nav menu =========== */}

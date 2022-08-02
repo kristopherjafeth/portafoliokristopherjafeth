@@ -9,7 +9,7 @@
 }
 
 .service__item:hover {
-  background: #01d293;
+  background: #B800C8;
   cursor: pointer;
 
   transform: translateY(-20px);
@@ -31,7 +31,7 @@
 
 .service__item span i {
   font-size: 3rem;
-  color: #01d293;
+  color: #B800C8;
 }
 
 .service__item h5 {
