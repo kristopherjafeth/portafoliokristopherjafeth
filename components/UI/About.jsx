@@ -66,7 +66,7 @@ const About = () => {
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Curriculum Actualizado</Link>
+                <Link href="/resume.pdf">Curriculum Actualizado</Link>
               </button>
             </div>
           </Col>

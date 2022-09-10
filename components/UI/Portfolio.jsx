@@ -58,7 +58,7 @@ const Portfolio = () => {
               <button
                 className={` ${
                   filter === "Paginas Web" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn `}
                 onClick={() => setFilter("Paginas Web")}
               >
                 Páginas Web
@@ -66,7 +66,7 @@ const Portfolio = () => {
               <button
                 className={`${
                   filter === "Diseños" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn `}
                 onClick={() => setFilter("Diseños")}
               >
                 Diseños
@@ -74,7 +74,7 @@ const Portfolio = () => {
               <button
                 className={`${
                   filter === "Sistemas" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn`}
                 onClick={() => setFilter("Sistemas")}
               >
                 Sistemas
@@ -82,7 +82,7 @@ const Portfolio = () => {
               <button
                 className={`${
                   filter === "Tiendas" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn `}
                 onClick={() => setFilter("Tiendas")}
               >
                 Tiendas

@@ -42,7 +42,7 @@
 }
 
 .hero__skills span i {
-  color: #B800C8;
+  color: #242424;
   background: transparent;
 }
 
@@ -57,7 +57,7 @@
   right: -5%;
   padding: 10px 20px;
   border-radius: 5px;
-  background: #141414d3;
+  background: #0d6efd;
   z-index: 10;
 }
 
@@ -75,7 +75,7 @@
 
 .hero__experience span i {
   padding: 5px;
-  color: #B800C8;
+  color: #242424;
   background: #808dad70;
   border-radius: 5px;
 }
