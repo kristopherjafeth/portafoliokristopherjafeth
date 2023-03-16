@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { navLinks } from '../../Data';
 import { socialIcons } from '../../Data';
+import logo from "../../assets/logo.svg";
+
 const Navbar = () => {
     
     const [scroll, setScroll] = useState(false);
@@ -47,7 +49,7 @@ const Navbar = () => {
           className={scroll ? "header active" : "header"}>
           <div className="Nav_container">
               <div className="logo">
-                    <h3>K</h3>
+                <img src={logo} alt="logo" />
               </div>
               <ul
                       className="nav_links"
