@@ -1,7 +1,7 @@
 import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaLinkedin } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
-import { BsMedium } from "react-icons/bs";
+import { BsGithub, BsMedium } from "react-icons/bs";
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
@@ -16,23 +16,24 @@ export const socialIcons = [
 ]
 
 export const bios = [
+
   {
     id: 1,
-    icon: <FaUser />,
-    key: "Name",
-    value: "Abeezarar"
+    icon: <FaPaperPlane />,
+    key: "",
+    value: "info@kristopherjafeth.com"
   },
   {
     id: 2,
-    icon: <FaPhoneAlt />,
-    key: "Phone",
-    value: "+959883271929"
+    icon: <BsGithub />,
+    key: "",
+    value: "kristopherjafeth"
   },
   {
     id: 3,
-    icon: <FaPaperPlane />,
-    key: "Email",
-    value: "abee02@gmail.com"
+    icon: <FaLinkedin />,
+    key: "",
+    value: "kristopherjafeth"
   }
 ]
 

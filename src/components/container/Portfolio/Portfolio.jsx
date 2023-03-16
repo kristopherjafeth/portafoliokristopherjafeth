@@ -105,7 +105,7 @@ const Portfolio = () => {
           whileHover={{ scale: 1.1 }}
           transition={{duration: 0.3}}
           className="talk_right">
-          <a href="#contact"
+          <a href="#contacto"
           >
             Solicitar Cotización
           </a>
