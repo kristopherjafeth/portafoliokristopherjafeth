@@ -1,8 +1,7 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaLinkedin } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
-import portfolio from "./assets/portfolio.png"
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
