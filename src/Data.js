@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaLinkedin } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaFigma, FaPhoneAlt, FaMapMarkerAlt, FaPaperPlane, FaLinkedin } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsGithub, BsMedium } from "react-icons/bs";
@@ -21,19 +21,19 @@ export const bios = [
     id: 1,
     icon: <FaPaperPlane />,
     key: "",
-    value: "info@kristopherjafeth.com"
+    value: "#"
   },
   {
     id: 2,
     icon: <BsGithub />,
     key: "",
-    value: "kristopherjafeth"
+    value: "https://github.com/kristopherjafeth"
   },
   {
     id: 3,
     icon: <FaLinkedin />,
     key: "",
-    value: "kristopherjafeth"
+    value: "https://www.linkedin.com/in/kristopherjafeth/"
   }
 ]
 

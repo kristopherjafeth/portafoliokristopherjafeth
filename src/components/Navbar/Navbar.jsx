@@ -3,7 +3,7 @@ import "./Navbar.scss";
 import { motion } from 'framer-motion';
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { navLinks } from '../../Data';
-import { socialIcons } from '../../Data';
+import { bios } from '../../Data';
 import logo from "../../assets/logo.svg";
 
 const Navbar = () => {
@@ -59,11 +59,13 @@ const Navbar = () => {
                   })}
               </ul>
               <div className="social_icons" >
-                  {socialIcons.map((socialIcon, index) => {
+                  {bios.map(bio => {
                   return (
-                      <div key={index}>
-                          {socialIcon}
-                      </div>
+                    <div key={bio.id}>
+                    <a href={`${bio.value}`}>
+                            {bio.icon}
+                    </a>
+                  </div>
                   )
               })}
               </div>

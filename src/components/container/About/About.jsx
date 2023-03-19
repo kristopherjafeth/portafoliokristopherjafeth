@@ -2,7 +2,6 @@ import React from 'react'
 import "./About.scss";
 
 import { motion } from 'framer-motion';
-import { bios } from '../../../Data';
 import portfolio from "../../../assets/portfolio.png"
 const About = () => {
 
@@ -34,17 +33,11 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>
+          <h4>
           Desarrollador Web Full Stack, Mis principales lenguajes/plataformas de programación son: Javascript, Node.js, React Js, PHP y Laravel.  👍
-          </p>
-          {bios.map(bio => {
-            return (
-              <div className="bio" key={bio.id}>
-                <span className='bioKey'>{bio.icon}{bio.key}</span>
-                <span className='bioValue'>{bio.value}</span>
-              </div>
-            )
-          })}
+          </h4>
+          <br/>
+         
           <motion.a href='#' download=""
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}

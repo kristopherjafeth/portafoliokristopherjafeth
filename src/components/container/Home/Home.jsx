@@ -34,8 +34,11 @@ const Home = () => {
       </div>
       <div className="profile_text">
         <h3 className='name'>Hola, Soy <span>Kristopher Jafeth</span> </h3>
-        <span className='job'>Desarrollador Web Full Stack</span>
-        <span className='text'>Me apasiona<br /> crear e innovar<br /> en la web.</span>
+        <span className='job'>Desarrollador Full Stack</span>
+        <h6 className='text'>Desarrollador Web</h6>
+        
+        
+        
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.1 }}
