@@ -2,7 +2,7 @@ import React from 'react'
 import "./About.scss";
 
 import { motion } from 'framer-motion';
-import portfolio from "../../../assets/portfolio.png"
+import portfolio from "../../../assets/kristopher.jpg"
 const About = () => {
 
 
